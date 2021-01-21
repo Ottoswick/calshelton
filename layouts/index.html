@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
+
+			<main class="list">
+				<div class="site-description">
+					{{- if isset .Site.Params "subtitle" -}}
+					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
+					{{- end -}}
+				</div>
+
+				<h1>Some of my books</h1>
+					<ul>
+					<li><a href="https://www.amazon.co.uk/How-Manage-Your-BTL-Processes/dp/B08SPM7ZVT/ref=sr_1_3?dchild=1&keywords=how+to+manage+your+btl&qid=1611224903&sr=8-3"> How to Manage Your BTL: Your Guide to Being a Landlord With Proven Processes and Systems to Maximise Your Rental Property Returns </a></li>
+					<li><a href="/3-wealth-strategies"> Three Wealth Strategies: Property Investing Secrest Explained </a></li>
+				</ul>
+
+				<h1>Useful stuff</h1>
+					<p>I think that I am lazy. I look for the most efficient way to do something and then repeat this without thinking about it too much. Below are a few of those things I have found that have helped me manage my properties or decide whether to make a property purchase.</p>
+					<ul>
+					<li><a href="https://caljshelton97074.activehosted.com/f/1"> BTL Checklist </a></li>
+					<li><a href="https://caljshelton97074.activehosted.com/f/5"> Return On Investment Calculator </a></li>
+				</ul>
+
+				<h1>Projects I'm working on</h1>
+					<p>Addressing the need for energy efficient housing and the genneral shortage of housing stock in London through my company <a href="https://redbanksia.com">Red Banksia</a>. We use the latest techonlogy to source, design and build energy efficient homes where they are needed most. They also happen to be beautiful to look at.</p>
+
+				{{ template "partials/paginator.html" . }}
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,43 @@
+baseURL = "http://example.org/"
+languageCode = "en-uk"
+title = "Hi."
+theme = "archie"
+copyright = "© Cal Shelton"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+	mode="auto"
+	useCDN=false
+	subtitle = "I’m Cal Shelton, author, accountant, landlord and developer. I am obsessed with property."
+
+[[params.social]]
+name = "Facebook"
+icon = "facebook"
+url = "https://www.facebook.com/propertyinvestingbooks/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/calshelton/"
+
+[[params.social]]
+name = "Email"
+icon = "mail"
+url = "mailto:cal@calshelton.com"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 3
