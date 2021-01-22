@@ -10,7 +10,7 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
 	useCDN=false
-	subtitle = "I’m Cal Shelton, author, accountant, landlord and developer. I am obsessed with property."
+	subtitle = "I'm Cal Shelton, author, accountant, landlord and developer. I am obsessed with property."
 
 [[params.social]]
 name = "Facebook"
