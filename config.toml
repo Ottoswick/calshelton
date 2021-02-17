@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-uk"
-title = "Hi."
+title = "Cal"
 theme = "archie"
 copyright = "© Cal Shelton"
 pygmentsstyle = "monokai"
@@ -10,7 +10,7 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
 	useCDN=false
-	subtitle = "I'm Cal Shelton, author, accountant, landlord and developer. I am obsessed with property."
+	subtitle = 
 
 [[params.social]]
 name = "Facebook"
