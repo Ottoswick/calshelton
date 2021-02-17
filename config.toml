@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-uk"
-title = "Cal"
+title = "Cal."
 theme = "archie"
 copyright = "© Cal Shelton"
 pygmentsstyle = "monokai"
@@ -10,7 +10,8 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
 	useCDN=false
-	subtitle = 
+	subtitle = ""
+
 
 [[params.social]]
 name = "Facebook"
