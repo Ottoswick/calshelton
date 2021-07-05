@@ -7,4 +7,4 @@ draft: false
 ![3 Wealth Strategies: Property Investing Secrets Explained](/images/3WS-cover.png)
 
 # COMING SOON! - 3 Wealth Strategies: Property Investing Secrets Explained
-Anticipated release June 2021
+Anticipated release August 2021
